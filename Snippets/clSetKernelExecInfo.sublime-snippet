@@ -1,0 +1,6 @@
+<snippet>
+	<description>Used To Pass Additional Information Other Than Argument Values To A Kernel</description>
+	<content><![CDATA[clSetKernelExecInfo(${1:kernel}, ${2:param_name}, ${3:param_value_size}, ${4:param_value})]]></content>
+	<tabTrigger>clSetKernelExecInfo</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

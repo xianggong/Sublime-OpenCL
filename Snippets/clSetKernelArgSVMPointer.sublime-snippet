@@ -1,0 +1,6 @@
+<snippet>
+	<description>Set Kernel Argument SVM Pointer</description>
+	<content><![CDATA[clSetKernelArgSVMPointer(${1:kernel}, ${2:arg_indx}, ${3:arg_value})]]></content>
+	<tabTrigger>clSetKernelArgSVMPointer</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

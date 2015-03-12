@@ -87,6 +87,15 @@
 		"sampler_t",
 		"event_t",
 
+		/* Pipe */
+		"pipe",
+
+		/* Device-side queue */
+		"queue_t",
+
+		/* Device-side NDRange */
+		"ndrange_t",
+
 		/* Address Space Qualifiers */
 		"constant",
 		"__constant",

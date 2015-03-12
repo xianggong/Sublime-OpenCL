@@ -1,0 +1,6 @@
+<snippet>
+	<description>Creates A Pipe Object</description>
+	<content><![CDATA[clCreatePipe(${1:context}, ${2:flags}, ${3:packet_size}, ${4:max_packets}, ${5:properties}, ${6:err_code_ret})]]></content>
+	<tabTrigger>clCreatePipe</tabTrigger>
+	<scope>source.c, source.c++</scope>
+</snippet>

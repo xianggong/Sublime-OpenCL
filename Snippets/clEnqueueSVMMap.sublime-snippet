@@ -1,0 +1,6 @@
+<snippet>
+        <description>Enqueue A Command To Map A SVM Buffer</description>
+        <content><![CDATA[clEnqueueSVMMap(${1:command_queue}, ${2:blocking_map}, ${3:flags}, ${4:svm_ptr}, ${5:size}, ${6:num_events_in_wait_list}, ${7:event_wait_list}, ${8:event})]]></content>
+        <tabTrigger>clEnqueueSVMMap</tabTrigger>
+        <scope>source.c, source.c++</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+        <description>Allocate A SVM Buffer</description>
+        <content><![CDATA[clSVMAlloc(${1:context}, ${2:flags}, ${3:size}, ${4:alignment})]]></content>
+        <tabTrigger>clSVMAlloc</tabTrigger>
+        <scope>source.c, source.c++</scope>
+</snippet>
